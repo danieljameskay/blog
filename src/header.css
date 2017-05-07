@@ -1,0 +1,24 @@
+.header-title{
+  font-family: 'Lora', serif;
+  color: #696969;
+  padding-left: 15px;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  border-top: 1px solid #efefef;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.header-summary{
+  font-family: 'Lora', serif;
+  color: #696969;
+  padding-left: 15px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+
+}

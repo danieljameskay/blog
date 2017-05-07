@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.article{
+  background-color: white;
+  border-bottom: 1px solid #efefef;
+  margin-top: 10px;
+}
+
+.date-text{
+  margin-top: 15px;
+  font-family: 'Lora', serif;
+  color: #C0C0C0;
+}
+
+.title-text{
+  margin-top: 10px;
+  font-family: 'Lora', serif;
+  color: #696969;
+}
+
+.body-text{
+  font-family: 'Lora', serif;
+  color: #808080;
+}
