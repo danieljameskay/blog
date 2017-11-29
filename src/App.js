@@ -1,7 +1,6 @@
 require('dotenv').config();
 
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import ArticleContainer from './articleContainer';
 import Header from './header';
 import SuperAgent from 'superagent';
@@ -17,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    SuperAgent.get(process.env.REACT_APP_LIVE_API_URI).query(null).set('Accept', 'text/json')
+    SuperAgent.get('https://arcane-depths-41456.herokuapp.com/api/showPosts').query(null).set('Accept', 'text/json')
     .end((error, response) => {
       if(error){
         console.log(`'An error has occured calling the web service. ${error}.'`);
